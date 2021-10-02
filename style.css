@@ -307,5 +307,49 @@ html {
 /* end of section 3 */
 
 /* section 4 */
+.section-4 {
+  width: 100%;
+  height: 70vh;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
 
+.section-4-heading {
+  color: aliceblue;
+  box-shadow: none;
+  border-color: aliceblue;
+}
+
+.contact-form {
+  width: 50rem;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  background-color: whitesmoke;
+  font-size: 1.5rem;
+  border: solid #ff00ff;
+  color: #555;
+}
+
+.contact-form textarea {
+  height: 10rem;
+  max-height: 15rem;
+  max-width: 100%;
+}
+
+.contact-form .contact-form-btn {
+  background-color: #ff00ff;
+  color: aliceblue;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  cursor: pointer;
+}
 /* end of section 4 */
